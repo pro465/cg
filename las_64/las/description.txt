@@ -1,0 +1,13 @@
+syntactically minimal lambda calculus
+
+` = application
+\ = abstraction
+a-z = variables
+
+variables are single character, and do not appear near their lambdas. 
+Instead, a variable's position in the alphabet determines which lambda it refers to, 
+starting from the topmost lambda with a, the second topmost being b, and so on.
+(basically a reverse De Bruijn indexing. or De Bruijn levels 
+(according to https://en.wikipedia.org/wiki/De_Bruijn_index#Alternatives_to_de_Bruijn_indices))
+
+That's enough info, good luck trying to implement it!

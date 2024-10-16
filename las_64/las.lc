@@ -1,0 +1,39 @@
+
+`\n ```````\one\two\three\nil\cons\con\eq
+    ``n
+    `\f`\x`x x\x`f\v``x x v
+    (\f\l ``l 
+        (\a\b ``b
+            (\c\d `````eq a c 
+                (\v``d
+                    (\e\r`````eq c e
+                        (\v ```con three a (`f r))
+                        (\v ```con two a (`f d))
+                        (nil)
+                    )
+                    (```con two a nil)
+                )
+                (\v```con one a (`f b))
+                (nil)
+            )
+            (```con one a nil)
+        )
+        (nil)
+    )
+    (``cons one nil)
+    \a\b `a b
+    \a\b `a `a b
+    \a\b `a `a `a b
+    \c\n n
+    \h\t (\c\n ``c h t)
+    \x\y\z (\c\u ``c x (\d\v ``d y z))
+    (``\leq\and \m\n ``and (``leq m n)(``leq n m)
+        (``\sub\iszero \m\n `iszero (``sub m n)
+            (`\pred \m\n ``m pred n
+                \n\f\x ```n (\g\h`h`g f) (\u x) (\u u))
+            \n ``n (\x\a\b b) (\a\b a))
+        \p\q ``p q p
+    )
+\f\x `f`f`f`f`f`f x
+
+
